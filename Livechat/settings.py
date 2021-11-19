@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'd65)r2e+4ekq!j2(sr485(a3(#6g)(1mt=+-*h!+6py8lswqlx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['chatwithpraks.herokuapp.com']
 
 
 # Application definition
